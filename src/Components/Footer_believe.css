@@ -1,0 +1,31 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{margin: 0;
+}
+
+.footerhome{
+    display: flex;
+    margin-bottom: 0px;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    color: white;
+    position: absolute;
+    top: 1816px;
+    width: 100vw;
+    height: 320px;
+    z-index:1000;
+}
+
+.footerhome #footer-logo{
+    width: 217px;
+    height: 36px;
+    position: absolute;
+    left: 3.17%;
+    right: 80.49%;
+    bottom: 74.38%;
+    cursor: pointer;
+}

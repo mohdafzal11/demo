@@ -1,0 +1,44 @@
+.popp{
+    position: relative;
+    width: 1612px;
+    height: 1412px;
+    top: 0px;
+    left: -7px;
+    background-color: black;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background: #E6E6E6;
+}
+#footerhome1{
+    
+        display: flex;
+        margin-bottom: 0px;
+        justify-content: center;
+        background-color: rgb(0, 0, 0);
+        align-items: center;
+        color: white;
+        position: absolute;
+        top: 1450px;
+        width: 100vw;
+        height: 320px;
+        z-index:1000;
+    }
+    
+    .contactt-footerr {
+        position: relative;
+        top: 530px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .radiall{
+        position: relative;
+        left: 1140px;
+        top: 321px;
+        width: 700px;
+        height: 700px;
+        flex-shrink: 0;
+        border-radius: 700px;
+        background: radial-gradient(50% 50% at 50% 50%, #EE3224 0%, #F7EC13 33.33%, #F7EC13 66.67%, #E6E6E6 100%);
+      }
+      

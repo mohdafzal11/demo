@@ -1,0 +1,132 @@
+.flower-box{
+    background-color: black;
+    min-height: 900px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.flower-rectangle {
+    height: 100%;
+    width: 101%;
+    cursor: pointer;
+    background-color: black;
+}
+
+.blog-article{
+    background-color: black;
+    width: 101%;
+}
+
+.Blog {
+    color: #ffffff;
+    font-family: "Poppins-Light", Helvetica;
+    font-size: 260px;
+    font-weight: 300;
+    z-index: 100;
+    height: 165px;
+    letter-spacing: 0;
+    white-space: nowrap;
+    width: 2123px;
+    top: 82px;
+    left: 48px;
+    position: absolute;
+}
+
+.poor-agri {
+    position: relative;
+    padding: 10px;
+    top: -142px;
+    left: -1880px;
+    background-color: #333;
+    width: 3400px;
+    opacity: 0.8;
+    /* filter: brightness(0.9); */
+    /* z-index: 10; */
+}
+
+.poor-agri > h1{
+    color: #F8F8F8;
+    font-family: Poppins;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 115.2px */
+    white-space: nowrap;
+}
+
+.container1 {
+    width: 710px;
+    height: 468px;
+    border: 2px solid red;
+}
+
+.container2 {
+    width: 350px;
+    height: 468px;
+    border: 2px solid red;
+}
+
+.container3 {
+    width: 350px;
+    height: 468px;
+    border: 2px solid red;
+}
+
+.imgcontainer {
+    border: 2px solid red;
+    height: 325px;
+}
+
+.textcontainer {
+    color: #ffffff;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 36px;
+    font-weight: 400;
+    height: 42px;
+    padding-top: 50px;
+    padding-left: 20px;
+    width: 652px;
+}
+
+.textcontainer2 {
+    color: #ffffff;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 34px;
+    font-weight: 400;
+    height: 42px;
+    padding-top: 30px;
+    padding-left: 20px;
+    width: 302px;
+}
+
+.divcontainer1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    background-color: black;
+    /* position: relative;
+    top: -145px; */
+}
+
+.divcontainer2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    background-color: black;
+    /* position: relative;
+    top: -145px; */
+}
+
+.divcontainer3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    padding-top: 30px;
+    padding-bottom: 250px;
+    background-color: black;
+    /* position: relative;
+    top: -145px; */
+}

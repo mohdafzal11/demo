@@ -1,0 +1,904 @@
+@import url('https://fonts.googleapis.com/css2?family=Assistant:wght@300&family=Montserrat:wght@200;400;500&family=Poppins:ital,wght@0,300;0,400;1,200;1,400&display=swap');
+
+/* .whole-content{
+  height: 100vh;
+} */
+
+.talk-services {
+    background-color: #000000;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+.vector{
+  cursor: pointer;
+  background-color: white;
+  border: none;
+}
+/* Popup.css */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000; /* Adjust as needed */
+}
+
+body{
+background-color: black;
+overflow-x: hidden;
+overflow-y: hidden;
+}
+
+
+
+
+
+
+.popup {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+
+  
+  .talk-services .div {
+    background-color: #000000;
+    border: 1px none;
+    height: 3379px;
+    overflow: hidden;
+    position: relative;
+    width: 1512px;
+  }
+  .footer{
+    top:auto;
+  }
+  .talk-services .overlap {
+    height: 3379px;
+    left: -1px;
+    position: absolute;
+    top: 0;
+    width: 3290px;
+  }
+  
+  .talk-services .overlap-group {
+    height: 3379px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 3113px;
+  }
+  
+  .talk-services .overlap-group-2 {
+    height: 3379px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 2192px;
+  }
+
+  
+  .talk-services .fondo {
+    height: 3379px;
+    left: 1px;
+    position: absolute;
+    top: 0;
+    width: 1512px;
+  }
+  
+  .talk-services .ellipse {
+    height: 1578px;
+   z-index: 5000;
+    left: 556px;
+    mix-blend-mode: difference;
+    position: absolute;
+    top: 65px;
+    width: 957px;
+  }
+  
+  .talk-services .rectangle {
+    background-color: #ffffff;
+    height: 161px;
+    left: 2px;
+    position: absolute;
+    top: 1403px;
+    width: 1512px;
+  }
+  
+  .talk-services .rectangle-2 {
+    background-color: #ffffff;
+    height: 161px;
+    left: 1px;
+    position: absolute;
+    top: 1198px;
+    width: 1512px;
+  }
+  
+  .talk-services .we-use-light-to {
+    color: #ffffff;
+    font-family: "Poppins-Regular", Poppins;
+    font-size: 24px;
+    font-weight: 400;
+    height: 406px;
+    left: 65px;
+    letter-spacing: 0;
+    line-height: 36px;
+    position: absolute;
+    top: 483px;
+    width: 684px;
+
+    margin-bottom: 0px;
+  }
+  
+  .talk-services .span {
+    color: #ffffff;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-size: 24px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 36px;
+  }
+  
+  .talk-services .rectangle-3 {
+    background-color: #ffffff;
+    height: 161px;
+    left: 0;
+    position: absolute;
+    top: 1607px;
+    width: 100vw;
+  }
+
+  .contact-footer1{
+    position: relative;
+    top: 1115px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .img-contt{
+    display: flex;
+    position: relative;
+    left: -30px;
+  }
+  
+  .img-contt>img{
+    position: relative;
+    top: 10px;
+    left: -20px;
+    background-color: transparent;
+    width: 35px;
+    height: 35px;
+  }
+  
+  .phone1 > p{
+    color: #000000;
+    position: relative;
+    top: -12px;
+    left: 5px;
+  }
+  
+  .img-contt>p{
+    color: #808080;
+  }
+  
+  .talk-services .text-wrapper-2 {
+    color: #000000;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-size: 96px;
+    font-weight: 400;
+    height: 144px;
+    left: 460px;
+    letter-spacing: 0;
+    line-height: 144px;
+    position: absolute;
+    top: 1615px;
+    white-space: nowrap;
+  }
+  
+  .talk-services .text-wrapper-3 {
+    color: #000000;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-size: 96px;
+    font-weight: 400;
+    height: 72px;
+    left: 308px;
+    letter-spacing: 0;
+    line-height: 40px;
+    position: absolute;
+    top: 1447px;
+    width: 917px;
+  }
+  
+  .talk-services .text-wrapper-4 {
+    color: #000000;
+    font-family: "Montserrat-Regular", Poppins;
+    font-size: 96px;
+    font-weight: 400;
+    height: 83px;
+    left: 49px;
+    letter-spacing: 0;
+    line-height: 94px;
+    position: absolute;
+    top: 1236px;
+    white-space: nowrap;
+    width: 1076px;
+  }
+  
+  .talk-services .nav-bar-instance {
+    left: 1px !important;
+    position: absolute !important;
+    top: 0 !important;
+  }
+  
+  .talk-services .text-wrapper-5 {
+    color: #ffffff;
+    font-family: "Poppins-Light", Helvetica;
+    font-size: 260px;
+    font-weight: 300;
+    height: 165px;
+    left: 59px;
+    letter-spacing: 0;
+    line-height: 0px;
+    position: relative;
+    top: -201px;
+    white-space: nowrap;
+    width: 2123px;
+  }
+
+  .what-we-do{
+    color: #ffffff;
+    font-family: "Poppins-Light", Helvetica;
+    font-size: 260px;
+    font-weight: 300;
+    height: 165px;
+    left: 0px;
+    letter-spacing: 0;
+    line-height: 0px;
+    position: absolute;
+    top: 200px;
+    white-space: nowrap;
+    width: 2123px;
+  }
+  
+  .talk-services .text-wrapper-6 {
+    color: #ffffff;
+    font-family: "Poppins-Light", Helvetica;
+    font-size: 48px;
+    font-weight: 300;
+    height: 59px;
+    left: 49px;
+    letter-spacing: 0;
+    line-height: 72px;
+    position: absolute;
+    top: 1069px;
+    white-space: nowrap;
+    width: 635px;
+  }
+  
+  .talk-services .vector {
+    height: 102px;
+    z-index: 1000;
+    left: 1165px;
+    position: absolute;
+    top: 1228px;
+    width: 102px;
+  }
+
+  .x-Button1{
+    background: transparent;
+    border: none;
+    font-size: 48px;
+    cursor: pointer;
+    padding: 10px;
+    position: relative;
+    left: 65px;
+    top: -5px;
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+  }
+
+  .popp1 .x{
+    background: transparent;
+    border: none;
+    font-size: 48px;
+    cursor: pointer;
+    padding: 10px;
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+    position: relative;
+    left: 1015px;
+    top: 5px;
+  }
+  
+  .x-Button2{
+    background: transparent;
+    border: none;
+    font-size: 48px;
+    cursor: pointer;
+    padding: 10px;
+    position: relative;
+    left: 100px;
+    top: -5px;
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+  }
+  
+  .x-Button3{
+    background: transparent;
+    border: none;
+    font-size: 48px;
+    cursor: pointer;
+    padding: 10px;
+    position: relative;
+    left: 130px;
+    top: -5px;
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+  }
+
+  #light-eng{
+    position: relative;
+    left: -45px;
+  }
+  
+  .talk-services .img {
+    height: 102px;
+    left: 1260px;
+    position: absolute;
+    top: 1433px;
+    width: 102px;
+    cursor: pointer;
+  }
+  
+  .talk-services .vector-2 {
+    height: 102px;
+    left: 1361px;
+    position: absolute;
+    top: 1644px;
+    width: 102px;
+    cursor: pointer;
+  }
+  
+  .talk-services .rectangle-4 {
+    background-color: #ffffff;
+    height: 161px;
+    left: 3px;
+    position: absolute;
+    top: 2391px;
+    width: 1512px;
+  }
+  
+  .talk-services .rectangle-5 {
+    background-color: #ffffff;
+    height: 161px;
+    left: 2px;
+    position: absolute;
+    top: 2186px;
+    width: 1512px;
+  }
+  
+  .talk-services .rectangle-6 {
+    background-color: #ffffff;
+    height: 161px;
+    left: 1px;
+    position: absolute;
+    top: 2595px;
+    width: 1512px;
+  }
+  
+  .talk-services .architects-engineers {
+    color: #000000;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-size: 96px;
+    font-weight: 400;
+    height: 144px;
+    left: 49px;
+    letter-spacing: 0;
+    line-height: 144px;
+    position: absolute;
+    top: 2603px;
+    white-space: nowrap;
+  }
+  
+  .talk-services .text-wrapper-7 {
+    color: #000000;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-size: 96px;
+    font-weight: 400;
+    height: 40px;
+    left: 49px;
+    letter-spacing: 0;
+    line-height: 40px;
+    position: absolute;
+    top: 2451px;
+    white-space: nowrap;
+  }
+  
+  .talk-services .text-wrapper-8 {
+    color: #000000;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-size: 96px;
+    font-weight: 400;
+    height: 93px;
+    left: 49px;
+    letter-spacing: 0;
+    line-height: 144px;
+    position: absolute;
+    top: 2190px;
+    white-space: nowrap;
+    width: 844px;
+  }
+  
+  .talk-services .vector-3 {
+    height: 102px;
+    left: 903px;
+    position: absolute;
+    top: 2210px;
+    width: 102px;
+    cursor: pointer;
+  }
+  
+  .talk-services .vector-4 {
+    height: 102px;
+    left: 1380px;
+    position: absolute;
+    top: 2421px;
+    width: 102px;
+    cursor: pointer;
+  }
+  
+  .talk-services .vector-5 {
+    height: 102px;
+    left: 1206px;
+    position: absolute;
+    top: 2625px;
+    width: 102px;
+    cursor: pointer;
+  }
+  
+  .talk-services .do-you-have-light-a {
+    color: #ffffff;
+    font-family: "Poppins-Light", Helvetica;
+    font-size: 48px;
+    font-weight: 300;
+    height: 72px;
+    left: 49px;
+    letter-spacing: 0;
+    line-height: 72px;
+    position: absolute;
+    top: 2008px;
+    white-space: nowrap;
+  }
+  
+  .talk-services .button-instance {
+    left: 49px !important;
+    background-color: #FF4700;
+    width: 180px;
+    color: white;
+    color: #ffffff;
+    font-family: "Poppins-Light", Helvetica;
+    font-size: 24px;
+    font-weight: 300;
+    height: 16px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 36px;
+    height: 48px;
+    position: absolute !important;
+    top: 2868px !important;
+    cursor: pointer;
+  }
+
+  .button-instance{
+    position: relative;
+    width: 181px;
+    height: 48px;
+    left: -105px;
+    top:60px;
+    background-color: #ff4700;
+    color: white;
+    font-size: 24px;
+    line-height: 150%;
+    font-family: 'Poppins';
+    font-style: normal;
+    cursor: pointer;
+  }
+  
+  .button-instance:hover{
+    background: #fff;
+    box-shadow: 0px 2px 10px 5px #ff4700;
+    color: #000;
+  }
+  
+  .button-instance:after {
+    content: "";
+    background: #ff4700;
+    display: block;
+    position: absolute;
+    padding-top: 100%;
+    padding-left: 150%;
+    margin-left: -20px !important;
+    margin-top: -50%;
+    opacity: 0;
+    transition: all 0.8s;
+  }
+  
+  .button-instance:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+  }
+  
+  .button-instance:focus { 
+    outline:0; 
+  }
+  
+  .talk-services .element-wrapper {
+    background-color: #ffffff;
+    height: 161px;
+    left: 1601px;
+    position: absolute;
+    top: 2455px;
+    width: 1512px;
+  }
+  
+  .talk-services .element {
+    color: #000000;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-size: 96px;
+    font-weight: 400;
+    height: 93px;
+    left: 186px;
+    letter-spacing: 0;
+    line-height: 40px;
+    position: absolute;
+    top: 33px;
+    width: 535px;
+  }
+  
+  .talk-services .element-m-wrapper {
+    background-color: #ffffff;
+    height: 161px;
+    left: 1600px;
+    position: absolute;
+    top: 2250px;
+    width: 1512px;
+  }
+  
+  .talk-services .element-m {
+    color: #000000;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-size: 96px;
+    font-weight: 400;
+    height: 93px;
+    left: 187px;
+    letter-spacing: 0;
+    line-height: 40px;
+    position: absolute;
+    top: 33px;
+    width: 408px;
+  }
+  
+  .talk-services .div-wrapper {
+    background-color: #ffffff;
+    height: 161px;
+    left: 1599px;
+    position: absolute;
+    top: 2659px;
+    width: 1512px;
+  }
+  
+  .talk-services .element-2 {
+    color: #000000;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-size: 96px;
+    font-weight: 400;
+    height: 93px;
+    left: 188px;
+    letter-spacing: 0;
+    line-height: 40px;
+    position: absolute;
+    top: 38px;
+    width: 408px;
+  }
+  
+  .talk-services .text-wrapper-9 {
+    color: #000000;
+    font-family: "Montserrat-Regular", Helvetica;
+    font-size: 128px;
+    font-weight: 400;
+    height: 166px;
+    left: 2632px;
+    letter-spacing: 0;
+    line-height: 192px;
+    position: absolute;
+    top: 870px;
+    white-space: nowrap;
+    width: 658px;
+
+  }
+  
+  .talk-services .allipse{
+   
+
+    border-radius: 1578px;
+    background: radial-gradient(50.00% 50.00% at 50.00% 50.00%, #EE3224 0%, #F04B23 19.58%, #000 93.02%);
+    background-blend-mode: difference;
+    z-index: 100000000 ;
+  }
+
+  
+  .talk-services .overlap-2 {
+    height: 5px;
+    left: 84861px;
+    position: absolute;
+    width: 103px;
+    
+  }
+  
+  .talk-services .vector-6 {
+    height: 145px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 102px;
+  }
+  .navbar-items{
+    z-index: 1000;
+    overflow: visible;
+    background-color: black;
+  }
+  
+  .talk-services .vector-7 {
+    height: 151px;
+    left: 1px;
+    position: absolute;
+    top: 104px;
+    width: 102px;
+  }
+  
+  .talk-services .vector-8 {
+    height: 102px;
+    left: 84397px;
+    position: absolute;
+    top: -32680px;
+    width: 102px;
+  }
+  
+  .talk-services .vector-9 {
+    height: 102px;
+    left: 84397px;
+    position: absolute;
+    top: -32479px;
+    width: 102px;
+  }
+  
+  .talk-services .vector-10 {
+    height: 102px;
+    left: 84397px;
+    position: absolute;
+    top: -32275px;
+    width: 102px;
+  }
+  
+
+  .popp1{
+    position: relative;
+    width: 1093px;
+    height: 1295px;
+    top:-600px;
+    left: 220px;
+    background-color: black;
+    overflow-y: hidden;
+    overflow-x: hidden;
+    background: #E6E6E6;
+  }
+
+  .box {
+    height: 1578px;
+    width: 1578px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.box .Allipse {
+    height: 1578px;
+    position: absolute;
+    top: 0;
+    right: 570px;
+  
+} 
+
+#human-btn{
+  z-index: 0;
+}
+
+.human-centric{
+  background-color: white;
+  width: 100vw;
+  height: 570px;
+  flex-shrink: 0; 
+  position: absolute;
+  top: 1283px;
+  overflow-y: hidden;
+  z-index: 1;
+}
+
+.human-flex{
+  display: flex;
+  justify-content: space-around;
+}
+
+.human-flex > h1{
+  color: #000;
+  font-family: Poppins;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+  margin-left: -35px;
+}
+
+.para1{
+  color: #000;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  width: 440px;
+  height: 286px;
+  flex-shrink: 0;
+  padding-left: 100px;
+}
+
+.para2{
+  width: 400px;
+  height: 246px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 150%;
+  position: relative;
+  top:  -285px;
+  left: 605px;
+}
+
+.crossButton1{
+  background: transparent;
+  border: none;
+  font-size: 48px;
+  cursor: pointer;
+  padding: 10px;
+}
+
+.indi-project{
+  flex-shrink: 0;
+  background-color: white;
+  height: 183px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 144px;
+  position: absolute;
+  top: 2250px;
+  white-space: nowrap;
+  width: 100vw;
+  display: flex;
+
+}
+
+.indi-project > h1{
+  position: relative;
+  left: 467px;
+  top: 60px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.indi-btn{
+  position: relative;
+  left: 188px;
+  top: 20px;
+}
+
+.company{
+  flex-shrink: 0;
+  background-color: white;
+  height: 170px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 144px;
+  position: absolute;
+  top: 2475px;
+  white-space: nowrap;
+  width: 100vw;
+  display: flex;
+}
+
+.comp-btn{
+  position: relative;
+  left: 200px;
+  top: 17px;
+}
+
+.company > h1{
+  position: relative;
+  left: 467px;
+  top: 60px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.architect{
+  flex-shrink: 0;
+  background-color: white;
+  height: 170px;
+  left: 0;
+  letter-spacing: 0;
+  line-height: 144px;
+  position: absolute;
+  top: 2680px;
+  white-space: nowrap;
+  width: 100vw;
+  display: flex;
+}
+
+.architect > h1{
+  position: relative;
+  left: 467px;
+  top: 60px;
+  color: #000;
+  font-family: Montserrat;
+  font-size: 96px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px;
+}
+
+.arch-btn{
+  position: relative;
+  left: 208px;
+  top: 20px;
+}
+
+.contact-footer{
+  position: relative;
+  top: 110px;
+}

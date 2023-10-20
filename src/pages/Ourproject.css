@@ -1,0 +1,502 @@
+.labelour {
+    height: 165px;
+    width: 1911px;
+}
+
+.img-active{
+box-shadow: 0 0 10px #FF2500,0 0 10px #FF2500,0 0 10px #FF2500;
+}
+
+#hallbig{
+    height: 820px;
+    width: 800px;
+}
+
+.content{
+    background-color: black;
+    min-height: 500vh;
+}
+
+.labelour .text-wrapperour {
+    color: #ffffff;
+    font-family: "Poppins-Light", Helvetica;
+    font-size: 260px;
+    font-weight: 300;
+    height: 165px;
+    left: 0;
+    letter-spacing: 0;
+    line-height: 390px;
+    position:absolute;
+    top: 0;
+    white-space: nowrap;
+    width: 1911px;
+}
+
+.ourbutton{ 
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right:0px;
+    top: 0px;
+    cursor: pointer;
+    border: none;
+    width: 50px;
+    height: 42px;
+}
+
+.orangeour{ 
+    background: #FF2500;
+    
+    display: flex;
+    position: absolute;
+    top: 1.5px;
+    right: 1.5px;
+    overflow: hidden;
+    height: 39.5px;  
+    width: 50px;
+    z-index: 0;
+}
+.hhour{
+    position: relative;
+    top: 5px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-size: 18px;
+}
+
+.headingproject{
+    border: 3px solid white;
+    padding-bottom: 10px;
+    padding: 5px 5px 4px ;
+    display: flex;
+    color:white;
+    height: 42px;
+    left: 0;
+   
+    
+    width: 700px;
+    
+}
+.headingprojectshort{
+    border: 3px solid white;
+    /* padding-bottom: 10px; */
+    padding: 5px 5px 4px ;
+    display: flex;
+    color:white;
+    height: 42px;
+    left: 0;
+   
+    
+    width: 342px;
+    
+}
+
+.ourphoto>img{
+    border: 1px solid white;
+    position: relative;
+    top: -5px;
+    height: 350px;
+    z-index: 1;
+}
+.ourphototall>img{
+    border: 3px solid white;
+    position: relative;
+    top: 7px;
+    height: 780px;
+    z-index: 1;
+}
+
+.ourphoto{
+    margin-top: 14px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+
+}
+
+#Hall{ 
+    
+    height: 411px;
+    z-index: 5;
+    height: 411px;
+    position: absolute;
+    width: 700px;
+    top: 400px;
+    left: 50px;
+}
+
+#Parc{ 
+    height: 411px;
+   
+    height: 411px;
+    position: absolute;
+    width: 700px;
+    top: 850px;
+    left: 770px;
+}
+#Kolla{ 
+    height: 411px;
+    z-index: 10000;
+    height: 411px;
+    position: absolute;
+    width: 700px;
+    top: 2550px;
+    left: 770px;
+}
+
+
+#Flying{ 
+    height: 411px;
+ 
+    height: 411px;
+    position: absolute;
+    width: 700px;
+    top: 1700px;
+    left: 420px;
+}
+
+
+#Greenwall{ 
+    height: 411px;
+    left: 1130px;
+    position: absolute;
+    width: 342px;
+    z-index: 1;  
+    top: 400px;
+
+}
+#Stad{ 
+    height: 411px;
+    left: 1130px;
+    position: absolute;
+    width: 342px;
+    z-index: 1;  
+    top: 1270px;
+
+}
+
+#Studio{ 
+    height: 411px;
+    left: 420px;
+    position: absolute;
+    width: 342px;
+    z-index: 1;  
+    top: 1270px;
+
+}
+#Galerie{ 
+    height: 411px;
+    left: 50px;
+    position: absolute;
+    width: 342px;
+    z-index: 1;  
+    top: 1700px;
+
+}
+#Chambre{ 
+    height: 411px;
+    left: 50px;
+    position: absolute;
+    width: 342px;
+    z-index: 1;  
+    top: 2126px;
+
+}
+#Skatepark{ 
+    height: 411px;
+    left: 770px;
+    position: absolute;
+    width: 342px;
+    z-index: 1;  
+    top: 2126px;
+
+}
+
+#KNMA{ 
+    height: 411px;
+    left: 410px;
+    position: absolute;
+    width: 342px;
+    z-index: 1;  
+    top: 2550px;
+
+}
+#Archi{ 
+    height: 411px;
+    left:50px;
+    position: absolute;
+    width: 342px;
+    z-index: 1;  
+    top: 850px;
+
+}
+#KSA{ 
+    height: 411px;
+    left:1130px;
+    position: absolute;
+    width: 342px;
+    z-index: 1;  
+    top: 1700px;
+
+}
+
+
+
+.label1 .text-wrapper1 {
+    color: #ffffff;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 96px;
+    position: absolute;
+    left: 30px;
+    font-weight: 400;
+    height: 144px;
+    top: 69px;
+    
+    letter-spacing: 0;
+    line-height: 144px;
+    
+    white-space: nowrap;
+}
+.closebox {
+    height: 28px;
+    width: 28px;
+}
+
+.closebox .closebutton {
+    height: 28px;
+    left: 1185px;
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    width: 28px;
+}
+
+.projectcontent{
+    top: 100px;
+    max-width: 1217px;
+    background-color: black;
+    position: absolute;    
+    left: 100px;
+    overflow-y: hidden;
+    width: 1217px;
+    z-index: 10000;
+    /* min-height:200vh;  */
+
+
+}
+.projectcontent0{
+    top: 1700px;
+    max-width: 1217px;
+    background-color: black;
+    position: absolute;    
+    left: 100px;
+    overflow-y: hidden;
+    width: 1217px;
+    z-index: 10000;
+    /* min-height: 200vh; */
+}
+
+.redellipse{
+    z-index: -1;
+}
+
+.smallimage1 {
+  top: -225px;
+  position: relative;
+}
+
+.projectimages .bigimage {
+    
+    right: 5px;
+
+    top: 200px;
+    position: absolute;
+    
+    
+  
+}
+.smallimage3{
+    left: 0px;
+    top:406px;
+    position: absolute;
+}
+.smallimage7{
+    left: 0px;
+    top:611px;
+    position: absolute;
+}
+.smallimage8{
+    left: 0px;
+    top:816px;
+    position: absolute;
+}
+.smallimage7{
+    left: 0px;
+    top:611px;
+    position: absolute;
+}
+
+.smallimage4{
+    left: 205px;
+    top:406px;
+    position: absolute;
+}
+.smallimage5
+{
+    left: 205px;
+    top:611px;
+    position: absolute;
+}
+.smallimage6
+{
+    left: 205px;
+    top:816px;
+    position: absolute;
+}
+
+.text1 {
+    height: 206px;
+    width: 472px;
+}
+
+.text1 .text1-wrapper {
+    color: #ffffff;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 24px;
+    left: 695px;
+    top: 420px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 36px;
+    position: relative;
+    width: 472px;
+}
+
+.text2 {
+    height: 269px;
+    width: 472px;
+}
+
+.text2 .hall-de-locomotives {
+    color: #ffffff;
+    font-family: "Poppins-Light", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+   position: relative;
+    letter-spacing: 0;
+    line-height: 24px;
+   top: 220px;
+   left: 48px;
+    
+    width: 472px;
+}
+
+.text2 .text2-wrapper {
+    font-weight: 300;
+}
+
+.text2 .span {
+    font-family: "Poppins-LightItalic", Helvetica;
+    font-style: italic;
+    font-weight: 300;
+}
+.text10{
+    height: 206px;
+    width: 472px;
+    
+}
+
+.text10 .text10-wrapper {
+    color: #ffffff;
+    font-family: "Poppins-Regular", Helvetica;
+    font-size: 24px;
+    left: 695px;
+    top: 650px;
+    /* padding-bottom: 50px; */
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 36px;
+    position: relative;
+    width: 472px;
+}
+
+.text20 {
+    height: 269px;
+    width: 472px;
+}
+
+.text20 .greenwall {
+    color: #ffffff;
+    font-family: "Poppins-Light", Helvetica;
+    font-size: 16px;
+    font-weight: 400;
+   position: relative;
+    letter-spacing: 0;
+    line-height: 24px;
+    top: 480px;
+    left: 48px;
+    
+    width: 472px;
+}
+
+.text20 .text20-wrapper {
+    font-weight: 300;
+}
+
+.text20 .span20 {
+    font-family: "Poppins-LightItalic", Helvetica;
+    font-style: italic;
+    font-weight: 300;
+}
+.down{
+    width: 100px;
+    height: 100px;
+    z-index: 10000;
+    position: absolute;
+    bottom: 0px;
+    cursor: pointer;
+    left: 290px;
+}
+
+#hallpopup{
+    height: 1350px;
+}
+#parcpopup{
+    height: 1385px;
+}
+#archipopup{
+    height: 1420px;
+}
+#archistudio{
+    height: 1510px;
+}
+
+#greenwallpopup{
+    height: 1410px;
+}
+#stadpopup{
+    height:1750px;
+}
+#galerie{
+    height: 1580px;
+}
+#flyingpopup{
+    height: 1700px;
+}
+#chambrepopup{
+    height: 1700px;
+}
+#ksapopup{
+    height: 2150px;
+}
+#skateparkpopup{
+    height: 1700px;
+}
+#knmapopup{
+    height: 1780px;
+}
+#kollapopup{
+    height: 1580px;
+}
